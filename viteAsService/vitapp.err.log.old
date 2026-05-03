@@ -1,0 +1,8 @@
+npm error code ENOENT
+npm error syscall open
+npm error path C:\Users\kk\Desktop\chatweb\viteAsService\dist\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\kk\Desktop\chatweb\viteAsService\dist\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\WINDOWS\system32\config\systemprofile\AppData\Local\npm-cache\_logs\2026-05-03T06_58_55_325Z-debug-0.log

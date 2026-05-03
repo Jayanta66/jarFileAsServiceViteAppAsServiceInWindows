@@ -1,0 +1,4 @@
+@echo off
+
+runas /user:kk "cmd.exe /c cloudflared tunnel run --token eyJhIjoiYWM4YmQ3YWI3NmViNDkwMDZkNGRlNmU0MDM1MmNlMzciLCJ0IjoiM2ZhMWMyNjAtMjEwZi00YTY1LWJhMmQtZjhlNTBmZjViZjkxIiwicyI6Ik16YzJOREptT1RBdE5HUXlaaTAwTVdZNExUZ3hOMk10TnpJeFkyTmtOelJpTkRSbSJ9"
+pause

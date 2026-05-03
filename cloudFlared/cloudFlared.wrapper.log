@@ -1,0 +1,76 @@
+2026-05-03 12:35:14,828 DEBUG - Starting WinSW in console mode
+2026-05-03 12:35:14,858 INFO  - Installing service 'cloudFlared (cloudFlared)'...
+2026-05-03 12:35:14,877 INFO  - Service 'cloudFlared (cloudFlared)' was installed successfully.
+2026-05-03 12:35:30,556 DEBUG - Starting WinSW in service mode
+2026-05-03 12:35:30,699 ERROR - Failed to log event in Windows Event Log: Starting cmd /k "C:\Users\kk\Desktop\chatweb\viteAsService\cloudFlared.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 12:35:30,736 INFO  - Starting cmd /k "C:\Users\kk\Desktop\chatweb\viteAsService\cloudFlared.bat"
+2026-05-03 12:35:30,761 INFO  - Started process 8868
+2026-05-03 12:35:30,770 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.RollingLogAppender
+2026-05-03 12:35:30,771 ERROR - Failed to log event in Windows Event Log: Failed to move :C:\Users\kk\Desktop\chatweb\cloudFlared\cloudFlared.out.log to C:\Users\kk\Desktop\chatweb\cloudFlared\cloudFlared.out.log.old because Could not find file 'C:\Users\kk\Desktop\chatweb\cloudFlared\cloudFlared.out.log'.; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 12:35:30,772 ERROR - Failed to log event in Windows Event Log: Failed to move :C:\Users\kk\Desktop\chatweb\cloudFlared\cloudFlared.err.log to C:\Users\kk\Desktop\chatweb\cloudFlared\cloudFlared.err.log.old because Could not find file 'C:\Users\kk\Desktop\chatweb\cloudFlared\cloudFlared.err.log'.; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 12:36:33,380 ERROR - Failed to log event in Windows Event Log: Stopping cloudFlared; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 12:36:33,381 INFO  - Stopping cloudFlared
+2026-05-03 12:36:33,381 DEBUG - ProcessKill 8868
+2026-05-03 12:36:33,389 DEBUG - Stopping process 8868...
+2026-05-03 12:36:48,411 DEBUG - Process 8868 terminated.
+2026-05-03 12:36:48,449 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-03 12:36:48,453 INFO  - Finished cloudFlared
+2026-05-03 12:36:49,237 DEBUG - Starting WinSW in service mode
+2026-05-03 12:36:49,366 ERROR - Failed to log event in Windows Event Log: Starting cmd /k "C:\Users\kk\Desktop\chatweb\viteAsService\cloudFlared.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 12:36:49,397 INFO  - Starting cmd /k "C:\Users\kk\Desktop\chatweb\viteAsService\cloudFlared.bat"
+2026-05-03 12:36:49,423 INFO  - Started process 7632
+2026-05-03 12:36:49,434 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.RollingLogAppender
