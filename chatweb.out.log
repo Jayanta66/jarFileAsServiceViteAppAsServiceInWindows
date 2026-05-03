@@ -1,0 +1,55 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-05-03T08:46:20.466+05:30  INFO 2396 --- [chat] [           main] com.chat_app.chat.ChatApplication        : Starting ChatApplication v0.0.1-SNAPSHOT using Java 26 with PID 2396 (C:\Users\kk\Desktop\chatweb\chatweb.jar started by DESKTOP-LCE0E1E$ in C:\Users\kk\Desktop\chatweb)
+2026-05-03T08:46:20.495+05:30  INFO 2396 --- [chat] [           main] com.chat_app.chat.ChatApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-05-03T08:46:22.009+05:30  INFO 2396 --- [chat] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-03T08:46:22.093+05:30  INFO 2396 --- [chat] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2026-05-03T08:46:23.214+05:30  INFO 2396 --- [chat] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-03T08:46:23.230+05:30  INFO 2396 --- [chat] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-03T08:46:23.231+05:30  INFO 2396 --- [chat] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-03T08:46:23.260+05:30  INFO 2396 --- [chat] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2657 ms
+2026-05-03T08:46:23.597+05:30  INFO 2396 --- [chat] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-03T08:46:23.694+05:30  INFO 2396 --- [chat] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-03T08:46:24.311+05:30  INFO 2396 --- [chat] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-03T08:46:24.342+05:30  INFO 2396 --- [chat] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-03T08:46:24.450+05:30  INFO 2396 --- [chat] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@769b0752
+2026-05-03T08:46:24.452+05:30  INFO 2396 --- [chat] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-03T08:46:24.494+05:30  WARN 2396 --- [chat] [           main] org.hibernate.orm.core                   : HHH000511: The 8.0.45 version for [org.hibernate.dialect.MariaDBDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 10.6.0. Check the community dialects project for available legacy versions.
+2026-05-03T08:46:24.522+05:30  INFO 2396 --- [chat] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mariadb://localhost/chat?user=root]
+	Database driver: MariaDB Connector/J
+	Database dialect: MariaDBDialect
+	Database version: 8.0.45
+	Default catalog/schema: chat/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-03T08:46:25.424+05:30  INFO 2396 --- [chat] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-03T08:46:25.480+05:30  INFO 2396 --- [chat] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03T08:46:25.722+05:30  INFO 2396 --- [chat] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-03T08:46:26.045+05:30  WARN 2396 --- [chat] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-03T08:46:26.354+05:30  INFO 2396 --- [chat] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2026-05-03T08:46:26.355+05:30  INFO 2396 --- [chat] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2ced7cf]]
+2026-05-03T08:46:26.356+05:30  INFO 2396 --- [chat] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2026-05-03T08:46:26.375+05:30  INFO 2396 --- [chat] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-03T08:46:26.391+05:30  INFO 2396 --- [chat] [           main] com.chat_app.chat.ChatApplication        : Started ChatApplication in 6.671 seconds (process running for 7.768)
+2026-05-03T08:47:26.352+05:30  INFO 2396 --- [chat] [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2026-05-03T08:55:36.772+05:30  INFO 2396 --- [chat] [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-03T08:55:36.782+05:30  INFO 2396 --- [chat] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-03T08:55:36.786+05:30  INFO 2396 --- [chat] [ionShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2026-05-03T08:55:36.786+05:30  INFO 2396 --- [chat] [ionShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@2ced7cf]]
+2026-05-03T08:55:36.786+05:30  INFO 2396 --- [chat] [ionShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2026-05-03T08:55:36.789+05:30  INFO 2396 --- [chat] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-03T08:55:36.797+05:30  INFO 2396 --- [chat] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-03T08:55:36.807+05:30  INFO 2396 --- [chat] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

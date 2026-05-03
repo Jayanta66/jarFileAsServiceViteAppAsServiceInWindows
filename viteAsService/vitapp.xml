@@ -1,0 +1,8 @@
+<service>
+  <id>vitapp</id>
+  <name>vitapp</name>
+  <executable>cmd</executable>
+  <arguments>/k "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"</arguments>
+  <description>vitapp</description>
+  <log mode="roll"></log>
+</service>

@@ -1,0 +1,490 @@
+2026-05-02 17:35:02,158 DEBUG - Starting WinSW in console mode
+2026-05-02 17:35:02,188 INFO  - Installing service 'cloudFlared (cloudFlared)'...
+2026-05-02 17:35:02,223 INFO  - Service 'cloudFlared (cloudFlared)' was installed successfully.
+2026-05-02 17:38:33,467 DEBUG - Starting WinSW in console mode
+2026-05-02 17:38:41,581 DEBUG - Starting WinSW in console mode
+2026-05-02 17:38:41,608 INFO  - Installing service 'chatweb (cloudFlared)'...
+2026-05-02 17:38:41,626 INFO  - Service 'chatweb (cloudFlared)' was installed successfully.
+2026-05-02 17:38:48,494 DEBUG - Starting WinSW in service mode
+2026-05-02 17:38:48,616 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:38:48,648 INFO  - Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"
+2026-05-02 17:38:48,674 INFO  - Started process 5132
+2026-05-02 17:38:48,690 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 17:38:48,691 ERROR - Failed to log event in Windows Event Log: Failed to move :C:\Users\kk\Desktop\chatweb\chatweb.out.log to C:\Users\kk\Desktop\chatweb\chatweb.out.log.old because Could not find file 'C:\Users\kk\Desktop\chatweb\chatweb.out.log'.; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:38:48,692 ERROR - Failed to log event in Windows Event Log: Failed to move :C:\Users\kk\Desktop\chatweb\chatweb.err.log to C:\Users\kk\Desktop\chatweb\chatweb.err.log.old because Could not find file 'C:\Users\kk\Desktop\chatweb\chatweb.err.log'.; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:38:48,771 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 17:42:42,715 DEBUG - Starting WinSW in console mode
+2026-05-02 17:42:42,740 INFO  - Installing service 'chatweb (cloudFlared)'...
+2026-05-02 17:42:42,745 ERROR - A service with ID 'cloudFlared' already exists.
+2026-05-02 17:42:42,759 FATAL - Failed to install the service. The specified service already exists.
+2026-05-02 17:43:14,245 DEBUG - Starting WinSW in console mode
+2026-05-02 17:43:14,271 INFO  - Installing service 'chatweb (cloudFlared)'...
+2026-05-02 17:43:14,287 INFO  - Service 'chatweb (cloudFlared)' was installed successfully.
+2026-05-02 17:43:23,249 DEBUG - Starting WinSW in service mode
+2026-05-02 17:43:23,370 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:43:23,400 INFO  - Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"
+2026-05-02 17:43:23,420 INFO  - Started process 6392
+2026-05-02 17:43:23,431 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 17:43:23,471 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 17:43:39,748 DEBUG - Starting WinSW in service mode
+2026-05-02 17:43:39,871 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:43:39,901 INFO  - Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"
+2026-05-02 17:43:39,920 INFO  - Started process 500
+2026-05-02 17:43:39,929 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 17:43:39,968 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 17:44:46,699 DEBUG - Starting WinSW in service mode
+2026-05-02 17:44:47,218 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:44:47,298 INFO  - Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"
+2026-05-02 17:44:47,318 INFO  - Started process 3824
+2026-05-02 17:44:47,327 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 17:44:47,614 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 17:45:49,030 DEBUG - Starting WinSW in service mode
+2026-05-02 17:45:49,197 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:45:49,242 INFO  - Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"
+2026-05-02 17:45:49,272 INFO  - Started process 3352
+2026-05-02 17:45:49,295 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 17:45:49,676 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 17:46:00,134 DEBUG - Starting WinSW in service mode
+2026-05-02 17:46:00,268 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:46:00,305 INFO  - Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"
+2026-05-02 17:46:00,326 INFO  - Started process 6540
+2026-05-02 17:46:00,340 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 17:46:00,394 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 17:46:36,169 DEBUG - Starting WinSW in service mode
+2026-05-02 17:46:36,293 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:46:36,325 INFO  - Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"
+2026-05-02 17:46:36,343 INFO  - Started process 5448
+2026-05-02 17:46:36,352 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 17:46:36,390 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 17:46:50,171 DEBUG - Starting WinSW in service mode
+2026-05-02 17:46:50,293 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:46:50,323 INFO  - Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"
+2026-05-02 17:46:50,342 INFO  - Started process 2772
+2026-05-02 17:46:50,351 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 17:46:50,393 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 17:47:00,739 DEBUG - Starting WinSW in service mode
+2026-05-02 17:47:00,878 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:47:00,914 INFO  - Starting java -jar "C:\Users\kk\Desktop\cloudFlared.bat"
+2026-05-02 17:47:00,948 INFO  - Started process 4632
+2026-05-02 17:47:00,959 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 17:47:01,008 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'cloudFlared'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 17:49:39,977 DEBUG - Starting WinSW in console mode
+2026-05-02 17:49:40,015 INFO  - Installing service 'chatweb (chatweb)'...
+2026-05-02 17:49:40,033 INFO  - Service 'chatweb (chatweb)' was installed successfully.
+2026-05-02 17:50:01,800 DEBUG - Starting WinSW in service mode
+2026-05-02 17:50:01,924 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:50:01,955 INFO  - Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"
+2026-05-02 17:50:01,973 INFO  - Started process 3652
+2026-05-02 17:50:01,982 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 17:51:24,282 ERROR - Failed to log event in Windows Event Log: Stopping chatweb; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:51:24,283 INFO  - Stopping chatweb
+2026-05-02 17:51:24,283 DEBUG - ProcessKill 3652
+2026-05-02 17:51:24,285 DEBUG - Stopping process 3652...
+2026-05-02 17:51:24,459 DEBUG - Process 3652 canceled with code 130.
+2026-05-02 17:51:24,463 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 17:51:24,480 INFO  - Finished chatweb
+2026-05-02 17:51:34,333 DEBUG - Starting WinSW in service mode
+2026-05-02 17:51:34,458 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 17:51:34,489 INFO  - Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"
+2026-05-02 17:51:34,507 INFO  - Started process 1700
+2026-05-02 17:51:34,516 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 18:19:49,876 DEBUG - Starting WinSW in service mode
+2026-05-02 18:19:50,692 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 18:19:50,912 INFO  - Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"
+2026-05-02 18:19:51,349 INFO  - Started process 4404
+2026-05-02 18:19:51,449 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 18:33:23,861 DEBUG - Starting WinSW in service mode
+2026-05-02 18:33:24,839 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 18:33:24,969 INFO  - Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"
+2026-05-02 18:33:25,015 INFO  - Started process 4200
+2026-05-02 18:33:25,042 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 19:35:39,758 ERROR - Failed to log event in Windows Event Log: Stopping chatweb; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 19:35:39,763 INFO  - Stopping chatweb
+2026-05-02 19:35:39,763 DEBUG - ProcessKill 4200
+2026-05-02 19:35:39,774 DEBUG - Stopping process 4200...
+2026-05-02 19:35:39,933 DEBUG - Process 4200 canceled with code 130.
+2026-05-02 19:35:39,934 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 19:35:39,949 INFO  - Finished chatweb
+2026-05-02 19:35:41,419 DEBUG - Starting WinSW in service mode
+2026-05-02 19:35:41,546 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 19:35:41,577 INFO  - Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"
+2026-05-02 19:35:41,596 INFO  - Started process 8680
+2026-05-02 19:35:41,605 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-02 19:39:14,290 ERROR - Failed to log event in Windows Event Log: Stopping chatweb; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 19:39:14,291 INFO  - Stopping chatweb
+2026-05-02 19:39:14,292 DEBUG - ProcessKill 8680
+2026-05-02 19:39:14,294 DEBUG - Stopping process 8680...
+2026-05-02 19:39:14,397 DEBUG - Process 8680 canceled with code 130.
+2026-05-02 19:39:14,397 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-02 19:39:14,401 INFO  - Finished chatweb
+2026-05-02 22:25:07,152 DEBUG - Starting WinSW in service mode
+2026-05-02 22:25:07,572 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 22:25:07,628 INFO  - Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"
+2026-05-02 22:25:07,656 INFO  - Started process 3916
+2026-05-02 22:25:07,705 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-03 07:57:56,383 DEBUG - Starting WinSW in service mode
+2026-05-03 07:57:56,849 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 07:57:56,921 INFO  - Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"
+2026-05-03 07:57:56,984 INFO  - Started process 3904
+2026-05-03 07:57:56,994 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-03 08:46:16,658 ERROR - Failed to log event in Windows Event Log: Stopping chatweb; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 08:46:16,666 INFO  - Stopping chatweb
+2026-05-03 08:46:16,667 DEBUG - ProcessKill 3904
+2026-05-03 08:46:16,675 DEBUG - Stopping process 3904...
+2026-05-03 08:46:16,769 DEBUG - Process 3904 canceled with code 130.
+2026-05-03 08:46:16,773 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-03 08:46:16,781 INFO  - Finished chatweb
+2026-05-03 08:46:18,364 DEBUG - Starting WinSW in service mode
+2026-05-03 08:46:18,500 ERROR - Failed to log event in Windows Event Log: Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 08:46:18,532 INFO  - Starting java -jar "C:\Users\kk\Desktop\chatweb\chatweb.jar"
+2026-05-03 08:46:18,553 INFO  - Started process 2396
+2026-05-03 08:46:18,562 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.RollingLogAppender
+2026-05-03 08:55:36,739 ERROR - Failed to log event in Windows Event Log: Stopping chatweb; Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 08:55:36,741 INFO  - Stopping chatweb
+2026-05-03 08:55:36,742 DEBUG - ProcessKill 2396
+2026-05-03 08:55:36,749 DEBUG - Stopping process 2396...
+2026-05-03 08:55:36,847 DEBUG - Process 2396 canceled with code 130.
+2026-05-03 08:55:36,848 ERROR - Failed to log event in Windows Event Log. Reason: 
+System.InvalidOperationException: Cannot open log for source 'chatweb'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type)
+   at WinSW.WrapperService.LogEvent(String message, EventLogEntryType type)
+2026-05-03 08:55:36,851 INFO  - Finished chatweb

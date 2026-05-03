@@ -1,0 +1,404 @@
+2026-05-02 18:48:31,522 DEBUG - Starting WinSW in console mode
+2026-05-02 18:48:31,548 INFO  - Installing service 'vit (vit)'...
+2026-05-02 18:48:31,582 INFO  - Service 'vit (vit)' was installed successfully.
+2026-05-02 18:48:49,308 DEBUG - Starting WinSW in service mode
+2026-05-02 18:48:49,449 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 18:48:49,482 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-02 18:48:49,502 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-02 18:50:14,864 DEBUG - Starting WinSW in console mode
+2026-05-02 18:50:14,890 INFO  - Installing service 'vit (vit)'...
+2026-05-02 18:50:14,908 INFO  - Service 'vit (vit)' was installed successfully.
+2026-05-02 18:50:33,590 DEBUG - Starting WinSW in service mode
+2026-05-02 18:50:33,724 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 18:50:33,755 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-02 18:50:33,769 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-02 19:01:46,581 DEBUG - Starting WinSW in console mode
+2026-05-02 19:01:46,606 INFO  - Installing service 'vit (vit)'...
+2026-05-02 19:01:46,625 INFO  - Service 'vit (vit)' was installed successfully.
+2026-05-02 19:02:34,009 DEBUG - Starting WinSW in service mode
+2026-05-02 19:02:34,135 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 19:02:34,168 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-02 19:02:34,184 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-02 19:02:48,672 DEBUG - Starting WinSW in service mode
+2026-05-02 19:02:48,800 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 19:02:48,831 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-02 19:02:48,846 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-02 19:03:05,539 DEBUG - Starting WinSW in service mode
+2026-05-02 19:03:05,664 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-02 19:03:05,695 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-02 19:03:05,709 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 11:49:30,126 DEBUG - Starting WinSW in service mode
+2026-05-03 11:49:51,609 DEBUG - Starting WinSW in console mode
+2026-05-03 11:49:51,635 INFO  - Installing service 'vit (vit)'...
+2026-05-03 11:49:51,667 INFO  - Service 'vit (vit)' was installed successfully.
+2026-05-03 11:50:30,607 DEBUG - Starting WinSW in service mode
+2026-05-03 11:50:30,733 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 11:50:30,765 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-03 11:50:30,779 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 11:50:45,626 DEBUG - Starting WinSW in service mode
+2026-05-03 11:50:45,750 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 11:50:45,784 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-03 11:50:45,797 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 11:52:07,933 DEBUG - Starting WinSW in console mode
+2026-05-03 11:52:07,958 INFO  - Installing service 'vit (vit)'...
+2026-05-03 11:52:07,977 INFO  - Service 'vit (vit)' was installed successfully.
+2026-05-03 11:52:16,042 DEBUG - Starting WinSW in service mode
+2026-05-03 11:52:16,168 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 11:52:16,200 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-03 11:52:16,215 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 11:52:31,379 DEBUG - Starting WinSW in service mode
+2026-05-03 11:52:31,503 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 11:52:31,534 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-03 11:52:31,550 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 11:54:47,973 DEBUG - Starting WinSW in service mode
+2026-05-03 11:54:48,104 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 11:54:48,141 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-03 11:54:48,158 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 11:56:56,807 DEBUG - Starting WinSW in service mode
+2026-05-03 11:56:56,929 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 11:56:56,960 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-03 11:56:56,975 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 11:58:52,976 DEBUG - Starting WinSW in console mode
+2026-05-03 11:58:53,003 INFO  - Installing service 'vit (vit)'...
+2026-05-03 11:58:53,023 INFO  - Service 'vit (vit)' was installed successfully.
+2026-05-03 11:59:01,071 DEBUG - Starting WinSW in service mode
+2026-05-03 11:59:01,193 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vit'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 11:59:01,224 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-03 11:59:01,238 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 12:00:13,751 DEBUG - Starting WinSW in console mode
+2026-05-03 12:00:13,776 INFO  - Installing service 'vitapp (vitapp)'...
+2026-05-03 12:00:13,812 INFO  - Service 'vitapp (vitapp)' was installed successfully.
+2026-05-03 12:00:22,637 DEBUG - Starting WinSW in service mode
+2026-05-03 12:00:22,758 ERROR - Failed to log event in Windows Event Log: Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vitapp'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 12:00:22,790 INFO  - Starting bat -bat "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-03 12:00:22,803 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'bat' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 12:04:00,210 DEBUG - Starting WinSW in console mode
+2026-05-03 12:04:00,236 INFO  - Installing service 'vitapp (vitapp)'...
+2026-05-03 12:04:00,256 INFO  - Service 'vitapp (vitapp)' was installed successfully.
+2026-05-03 12:04:07,862 DEBUG - Starting WinSW in service mode
+2026-05-03 12:04:07,987 ERROR - Failed to log event in Windows Event Log: Starting npm run dev "C:\Users\kk\Downloads\Spring-boot-react-chat-web-app-main\Spring-boot-react-chat-web-app-main\Front-end\dist"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vitapp'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 12:04:08,018 INFO  - Starting npm run dev "C:\Users\kk\Downloads\Spring-boot-react-chat-web-app-main\Spring-boot-react-chat-web-app-main\Front-end\dist"
+2026-05-03 12:04:08,033 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'npm' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 12:04:40,351 DEBUG - Starting WinSW in console mode
+2026-05-03 12:04:40,376 INFO  - Installing service 'vitapp (vitapp)'...
+2026-05-03 12:04:40,395 INFO  - Service 'vitapp (vitapp)' was installed successfully.
+2026-05-03 12:05:22,259 DEBUG - Starting WinSW in service mode
+2026-05-03 12:05:22,386 ERROR - Failed to log event in Windows Event Log: Starting npm run dev "C:\Users\kk\Downloads\Spring-boot-react-chat-web-app-main\Spring-boot-react-chat-web-app-main\Front-end\dist"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vitapp'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 12:05:22,417 INFO  - Starting npm run dev "C:\Users\kk\Downloads\Spring-boot-react-chat-web-app-main\Spring-boot-react-chat-web-app-main\Front-end\dist"
+2026-05-03 12:05:22,431 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'npm' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 12:07:27,675 DEBUG - Starting WinSW in console mode
+2026-05-03 12:07:27,701 INFO  - Installing service 'vitapp (vitapp)'...
+2026-05-03 12:07:27,719 INFO  - Service 'vitapp (vitapp)' was installed successfully.
+2026-05-03 12:07:36,713 DEBUG - Starting WinSW in service mode
+2026-05-03 12:07:36,839 ERROR - Failed to log event in Windows Event Log: Starting npm run dev; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vitapp'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 12:07:36,871 INFO  - Starting npm run dev
+2026-05-03 12:07:36,884 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process 'npm' with working directory 'C:\Users\kk\Desktop\chatweb\viteAsService'. The system cannot find the file specified.
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2026-05-03 12:13:17,203 DEBUG - Starting WinSW in console mode
+2026-05-03 12:13:17,228 INFO  - Installing service 'vitapp (vitapp)'...
+2026-05-03 12:13:17,251 INFO  - Service 'vitapp (vitapp)' was installed successfully.
+2026-05-03 12:13:23,993 DEBUG - Starting WinSW in service mode
+2026-05-03 12:13:24,116 ERROR - Failed to log event in Windows Event Log: Starting cmd /k "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vitapp'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 12:13:24,147 INFO  - Starting cmd /k "C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.bat"
+2026-05-03 12:13:24,175 INFO  - Started process 3824
+2026-05-03 12:13:24,184 DEBUG - Forwarding logs of the process System.Diagnostics.Process (cmd) to WinSW.RollingLogAppender
+2026-05-03 12:13:24,186 ERROR - Failed to log event in Windows Event Log: Failed to move :C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.out.log to C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.out.log.old because Could not find file 'C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.out.log'.; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vitapp'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
+2026-05-03 12:13:24,186 ERROR - Failed to log event in Windows Event Log: Failed to move :C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.err.log to C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.err.log.old because Could not find file 'C:\Users\kk\Desktop\chatweb\viteAsService\vitapp.err.log'.; Reason: 
+System.InvalidOperationException: Cannot open log for source 'vitapp'. You may not have write access.
+ ---> System.ComponentModel.Win32Exception (1722): The RPC server is unavailable.
+   --- End of inner exception stack trace ---
+   at System.Diagnostics.EventLogInternal.OpenForWrite(String currentMachineName)
+   at System.Diagnostics.EventLogInternal.InternalWriteEvent(UInt32 eventID, UInt16 category, EventLogEntryType type, String[] strings, Byte[] rawData, String currentMachineName)
+   at System.Diagnostics.EventLogInternal.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message, EventLogEntryType type, Int32 eventID, Int16 category, Byte[] rawData)
+   at System.Diagnostics.EventLog.WriteEntry(String message)
+   at WinSW.WrapperService.LogEvent(String message)
